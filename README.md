@@ -1,23 +1,14 @@
 # Sentiment-Analysis-of-Summarized-Texts
 
-This code provides a complete workflow for conducting research. It includes the following steps:
+This script offers a comprehensive workflow for analyzing text sentiment after extractive and abstractive summarization. It supports multiple languages (e.g., English, German, French) and includes the following key steps:
 
-1. **Data preprocessing**.
-2. **Extractive and abstractive summarization**.
-3. **Sentiment analysis**.
-4. **Evaluation of results** using metrics:
-   - Precision
-   - Recall
-   - F1-Score
-   - ROUGE
-   - BLEU
+1. Data Preprocessing – Preparing raw text for analysis.
+2. Summarization – Applying both extractive and abstractive methods to condense text.
+3. Sentiment Analysis – Evaluating the emotional tone of summarized content.
+4. Result Evaluation – Assessing performance using metrics such as:
+   - Precision, Recall, and F1-Score
+   - ROUGE and BLEU for summarization quality
 
-## Code Adaptation
+The code is adaptable for further customization, such as integrating additional languages or experimenting with alternative models.
 
-You can adapt this code to your needs, for example:
-- Add support for more languages.
-- Experiment with different summarization and sentiment analysis models.
-
-## Dataset Usage
-
-When using the dataset, please cite [this paper](link_to_paper).
+Dataset Attribution: When using the referenced dataset, please cite the accompanying paper (link provided in the original text).
